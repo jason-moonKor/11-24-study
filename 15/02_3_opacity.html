@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>마우스를 올리면 힌트와 정답 출력</title>
+		<style>
+			div.ans {
+				opacity: 0%;
+			}
+			div.tip:hover {
+				background-color: aqua;
+			}
+			div.ans:hover {
+				background-color: red;
+				opacity: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<p>[문제] CSS3에서 불투명도를 적용하는 속성은?</p>
+		<p>1. border</p>
+		<p>2. opacity</p>
+		<p>3. trasparency</p>
+		<p>4. visible</p>
+
+		[힌트]
+		<div class="tip">'불투명'을 뜻하는 영문단어</div>
+		[정답]
+		<div class="ans">정답은 2번</div>
+	</body>
+</html>
